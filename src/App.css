@@ -64,3 +64,10 @@
   font-size: 14px;
   font-weight: 300;
 }
+
+@media only screen and (max-width: 767px) {
+    .App {
+      transform: none;
+      padding: 20px 40px;
+    }
+}
